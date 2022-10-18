@@ -10,6 +10,10 @@ Before you start, read [SETUP.md](SETUP.md) and make sure your development envir
 2. Have four bubbles of different sizes rising toward the top of the screen and reappearing at the bottom
 3. Have four snowflakes of different sizes falling toward the bottom of the screen and reappearing at the top.
 4. Complete a design document, template available on google classroom, that documents and explains the work.
+   
+**What it should look like**
+
+![what it should look like](Animation2.gif)
 
 You should approach the project in the following order:
 
@@ -19,7 +23,7 @@ You should approach the project in the following order:
    
 3) Go to `Bubble.java`, remove the comment that surrounds the entire class to enable it, and complete the class. There are hints in the comments, and since bubbles are pretty similar to balls, you should be able to use the `Ball` class to help you with this process.
    
-4) In sketch.pde, add the code to get your four bubbles working.
+4) In `Sketch.java`, add the code to get your four bubbles working.
    
 5) Open `Snowflake.java`, remove the comment that surrounds the entire class to enable it, and complete the class. This one is much less complete, with only the `draw()` method provided. You will need to figure out the rest of the class yourself, again using `Ball` and `Bubble` to help you out.
 
