@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "sources": {
+        "lib/core.jar": "lib/core-sources.jar"
+    },
+    "java.inlayHints.parameterNames.enabled": "none"
+}
