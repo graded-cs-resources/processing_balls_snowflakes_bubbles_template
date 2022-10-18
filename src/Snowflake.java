@@ -1,0 +1,15 @@
+/** THE ENTIRE CLASS IS INSIDE A COMMENT RIGHT NOW. TO ENABLE THE CLASS, DELTE THIS LINE AND THE LAST ONE.
+
+class Snowflake {
+    // ONLY THE DRAW METHOD IS INCLUDED. YOU MUST FINISH THE REST.
+  
+
+    public void draw() {
+        line(x+radius,y,x-radius,y);
+        line(x,y+radius,x,y-radius);
+        line(x+radius*.707,y+radius*.707,x-radius*.707,y-radius*.707);
+        line(x+radius*.707,y-radius*.707,x-radius*.707,y+radius*.707);
+    }
+}
+
+**/
