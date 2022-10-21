@@ -41,6 +41,8 @@ class Ball {
         y = initY;
         xSpeed = initXSpeed;
         ySpeed = initYSpeed;
+        fillColor = s.color(100,100,100);
+        strokeColor = s.color(0,0,0);
     }
 
     /** accessors for the radius, diameter, x, and y values **/

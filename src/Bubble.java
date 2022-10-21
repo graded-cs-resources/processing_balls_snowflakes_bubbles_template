@@ -1,10 +1,41 @@
-/** THE ENTIRE CLASS IS INSIDE A COMMENT RIGHT NOW. TO ENABLE THE CLASS, DELTE THIS LINE AND THE LAST ONE.
+import processing.core.PApplet;
 
 class Bubble {
 
-    //MISSING MANY INSTANCE VARIABLES
+    private PApplet s;
+    private float radius = 20;
+    private float x = 100;
+    private float y = 100;
+    private float xSpeed = (float)0.5;
+    private float ySpeed = -2;
+    private int fillColor;
+    private int strokeColor;
 
-    //MISSING CONSTRUCTORS
+    /** Empty constructor to keep the defaults. Only sets up our link. */
+    public Bubble(PApplet ourSketch) {
+        s = ourSketch;
+        fillColor = s.color(255,50);
+        strokeColor = s.color(255);
+    }
+
+    /** Fully specified constructor to allow changes to size, position, speed */
+    /** Does NOT allow changing color! Need to use setColors() for that. */
+    public Bubble(PApplet ourSketch, 
+                float initRadius, 
+                float initX, 
+                float initY, 
+                float initXSpeed, 
+                float initYSpeed) 
+    {
+        s = ourSketch;
+        radius = initRadius;
+        x = initX;
+        y = initY;
+        xSpeed = initXSpeed;
+        ySpeed = initYSpeed;
+        fillColor = s.color(255,50);
+        strokeColor = s.color(255);
+    }
 
     // accessors for the radius, diameter, x, and y values 
     public float getRadius() {
@@ -22,8 +53,6 @@ class Bubble {
     public float getY() {
         return y;
     }
-
-    // MISSING ABILITY TO CHANGE COLORS, IF WANTED
 
     public void draw() {
         s.stroke(strokeColor);
@@ -46,4 +75,3 @@ class Bubble {
     }
 
 }
- **/
