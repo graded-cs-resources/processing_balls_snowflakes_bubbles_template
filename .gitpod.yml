@@ -1,1 +1,11 @@
 image: gitpod/workspace-full-vnc
+
+tasks:
+ - name: opening
+   command: xrandr --output VNC-0 --mode 640x480
+
+ports:
+  - port: 6080
+    onOpen: open-preview
+    name: Desktop
+    description: Desktop Preview
