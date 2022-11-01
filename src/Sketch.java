@@ -71,6 +71,10 @@ public class Sketch extends PApplet {
         bubble1.move();
         bubble2.draw();
         bubble2.move();
+        bubble3.draw();
+        bubble3.move();
+        bubble4.draw();
+        bubble4.move();
 
         sf1.draw();
         sf1.move();
