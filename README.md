@@ -35,14 +35,17 @@ Once you have completed all of these tasks, you have created a project that can 
 
 In order to extend into Accomplished/Exemplary land, you will need to add your own spin on things, AND document your extensions in the design document. Some suggestions:   
 
-1) Use random numbers to generate your balls, bubbles, and/or snowflakes rather than picking the sizes manually. The processing `random()` method can help with this, feel free to search that up in the Processing Reference. There are other ways to create random numbers in java too, but the one provided by Processing is probably the easiest!
-2) Read about java arrays and use arrays to hold your four (or more!) snowflakes, bubbles, and balls rather than individual variables.
+1) Use random numbers to generate your balls, bubbles, and/or snowflakes rather than picking the sizes manually. The processing `random()` method can help with this, feel free to search that up in the Processing Reference. You could also use the `Math.random()` method provided directly by java to do this.
+   
+2) Read about java **arrays** or **ArrayLists** and use arrays (or arraylists) to hold your four (or more!) snowflakes, bubbles, and balls rather than individual variables. You might also need to use **loops**
+   
 3) Make it so if you hover your mouse pointer over a ball or bubble or snowflake, it does not move. The built in processing variables `mouseX` and `mouseY` can help with this - again, feel free to search that up in the Processing Reference.
+   
 4) Make it so that when you press a key on the keyboard, the balls change color, either to random colors or alternating between a list of options. The `keyPressed()` method, added to your main `Sketch.java`, can help with this. Again, search in the Processing Reference.
    
 5) Add a new class that lets something else be created on the screen that you then create and animate in addition to the included objects.
    
-6) Introduce collision detection, so that if balls run into each other they bounce off of each other.
+6) Introduce *collision detection*, so that if balls run into each other they bounce off of each other.
    
 7) Come up with your own thing. This is often the best choice, as it demonstrates ingenuity! Exploring Examples or the Reference on the processing website can help you come up with ideas!
 
