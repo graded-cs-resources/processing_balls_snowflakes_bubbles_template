@@ -23,8 +23,6 @@ class Bubble {
         return y;
     }
 
-    // MISSING ABILITY TO CHANGE COLORS, IF WANTED
-
     public void draw() {
         s.stroke(strokeColor);
         s.fill(fillColor);

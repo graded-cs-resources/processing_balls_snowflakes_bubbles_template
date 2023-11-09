@@ -4,7 +4,7 @@
 
 2) Navigate to the `Sketch.java` file and open it.
 
-3) Scroll down to the very bottom method, called "Main". A "Run" command will appear above it. (it might take a minute for everything to load and for this to appear). Click the command.
+3) Click the Play button in the top row and make sure it runs.
 
 You should see a bouncing ball! If not, get help.
 
@@ -14,4 +14,4 @@ You should see a bouncing ball! If not, get help.
 
 2) To save your work to the cloud, look for the icon on the left that looks like some circles connected by lines. It will probably have a little yellow icon with a number on it - that is the number of changes you have made.
    
-3) Type a message in the line that says "Message" that says what you have changed since your last backup. Click the "Commit" button. Once that finished, click the "Sync Changes" button. Ta-da! It is now in the cloud.
+3) Type a message in the line that says "Message" that says what you have changed since your last backup. Click the "Commit" button. Once that finished, click the "Sync Changes" button. Ta-da! It is now in the cloud. **You should do this at least once a day**

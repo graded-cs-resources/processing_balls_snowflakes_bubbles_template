@@ -9,7 +9,8 @@ Before you start, read [SETUP.md](SETUP.md) and make sure your development envir
 1. Have four balls of different sizes and colors bouncing around the screen
 2. Have four bubbles of different sizes rising toward the top of the screen and reappearing at the bottom
 3. Have four snowflakes of different sizes falling toward the bottom of the screen and reappearing at the top.
-4. Complete a design document, template available on google classroom, that documents and explains the work.
+4. All code should be properly formatted and indented, with documentation comments for every method.
+5. A design document should be included as a PDF or PNG directly in the project folder that shows the UML class diagrams for your project.
    
 **What it should look like**
 
@@ -17,19 +18,21 @@ Before you start, read [SETUP.md](SETUP.md) and make sure your development envir
 
 You should approach the project in the following order:
 
-1) Read the `Ball.java` file to understand how the `Ball `class works and all of the methods you have to interact with it.
+1) Read the `Sketch.java` file to understand how a processing sketch works.
    
-2) In `Sketch.java` add code to create and draw four different balls, all with different sizes and colors, by using the `Ball` class appropriately.
+2) Read the `Ball.java` file to understand how the `Ball `class works and all of the methods you have to interact with it. Maybe leave some (non-documentation) comments for yourself to understand it (this is the equivalent of TAPping code!)
    
-3) Go to `Bubble.java`, remove the comment that surrounds the entire class to enable it, and complete the class. There are hints in the comments, and since bubbles are pretty similar to balls, you should be able to use the `Ball` class to help you with this process.
+3) In `Sketch.java` add code to create and draw four different balls, all with different sizes and colors, by using the `Ball` class appropriately.
    
-4) In `Sketch.java`, add the code to get your four bubbles working.
+4) Go to `Bubble.java`, remove the comment that surrounds the entire class to enable it, and complete the class. There are hints in the comments, and since bubbles are pretty similar to balls, you should be able to use the `Ball` class to help you with this process.
    
-5) Open `Snowflake.java`, remove the comment that surrounds the entire class to enable it, and complete the class. This one is much less complete, with only the `draw()` method provided. You will need to figure out the rest of the class yourself, again using `Ball` and `Bubble` to help you out.
+5) In `Sketch.java`, add the code to get your four bubbles working.
+   
+6) Open `Snowflake.java`, remove the comment that surrounds the entire class to enable it, and complete the class. This one is much less complete, with only the `draw()` method provided. You will need to figure out the rest of the class yourself, again using `Ball` and `Bubble` to help you out.
 
-6) In `Sketch.java`, add code to get your four snowflakes working.
+7) In `Sketch.java`, add code to get your four snowflakes working.
    
-7) Go to Google Classroom and complete the design documentation for the base level project.
+8) Go to Google Classroom and complete the design documentation for the base level project.
 
 Once you have completed all of these tasks, you have created a project that can earn a proficient.
 
