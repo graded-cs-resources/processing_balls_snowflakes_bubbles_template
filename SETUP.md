@@ -1,6 +1,6 @@
 # Setting up your Project
 
-1) Open this assignment in visual studio code using the button at the top of the README file!
+1) Open this assignment in visual studio code using the button at the top of the README file! If VS Code is not working, use gitpod by editing the address bar of your github repository and adding "https://gitpod.io/#" before the address.
 
 2) Navigate to the `Sketch.java` file and open it.
 
