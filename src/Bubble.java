@@ -24,7 +24,7 @@ class Bubble {
     }
 
     public void draw() {
-        s.stroke(strokeColor);
+        s.stroke(borderColor);
         s.fill(fillColor);
         s.circle(x, y, radius*2);
     }

@@ -1,23 +1,35 @@
 class Ball {
 
     /*
-     * In Processing, the Sketch works a lot like the World in the turtles. You can't
+     * In Processing, the Sketch works a lot like the World in the turtles. You
+     * can't
      * draw a ball without knowing which sketch to draw it on, so you always need to
      * specify the sketch for a Ball object.
      */
 
+    /** The sketch that the ball is inside */
     private Sketch s;
-    private float radius = 20;
-    private float x = 100;
-    private float y = 100;
-    private float xSpeed = 2;
-    private float ySpeed = -1;
+    /** the radius of the ball */
+    private float radius;
+    private float x;
+    private float y;
+    /** The number of pixels the ball moves right per frame */
+    private float xSpeed;
+    /** The number of pixels the ball moves down per frame */
+    private float ySpeed;
+    /** The color of the inside of the ball */
     private int fillColor;
+    /** The color of the outside of the ball */
     private int borderColor;
 
     /** Empty constructor to keep the defaults. Only sets up our link. */
     public Ball(Sketch sketch) {
         s = sketch;
+        radius = 20;
+        x = 100;
+        y = 100;
+        xSpeed = 2;
+        ySpeed = -1;
         fillColor = s.color(255, 100, 100);
         borderColor = s.color(0, 0, 0);
     }
@@ -51,7 +63,7 @@ class Ball {
         return y;
     }
 
-    // mutator (setter) for colors only
+    // Setters that you need go here - by default, only colors
 
     public void setColors(int fill, int border) {
         borderColor = border;
@@ -66,6 +78,7 @@ class Ball {
         s.fill(fillColor);
         s.circle(x, y, radius * 2);
     }
+
     /**
      * Moves the ball so that the next time it draws it will be in a different place
      */

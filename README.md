@@ -36,7 +36,7 @@ You should approach the project in the following order:
    
 8) Create UML Class diagrams for all classes in the project, as instructed in class.
 
-Once you have completed all of these tasks, you have created a project that can earn a proficient. The expectation is that you will create a commit at this point so that I can easily rewind your project to this point.
+Once you have completed all of these tasks, you have created a project that can earn a proficient. The expectation is that you will create a commit at this point so that I can easily rewind your project to this point. Before committing, please make sure to right click and choose "Format" to make sure your code is clearly formatted.
 
 ---
 
