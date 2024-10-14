@@ -9,12 +9,14 @@ Before you start, read [SETUP.md](SETUP.md) and make sure your development envir
 1. Have four balls of different sizes and colors bouncing around the screen
 2. Have four bubbles of different sizes rising toward the top of the screen and reappearing at the bottom
 3. Have four snowflakes of different sizes falling toward the bottom of the screen and reappearing at the top.
-4. All code should be properly formatted and indented, with documentation comments for every method.
+4. All code should be properly formatted and indented, with full documentation comments for every method. Check out the `draw()` method in `Ball.java` for an exmaple of a documentation comment.
 5. A design document should be included as a PDF or PNG directly in the project folder that shows the UML class diagrams for your project.
    
 **What it should look like**
 
 ![what it should look like](Animation2.gif)
+
+The expecation is that you will complete everything required for a Proficient using ONLY our CS Awesome textbook and your own knowledge. Using **any other source** for that material will be treated as academic dishonesty. NO Google, NO AI, NO Youtube. You can ask me or classmates for *hints*, but only hints, and you should not be looking at each other's code during this part of the assessment. Tutors, parents, siblings,  are forbidden for this portion of the project.
 
 You should approach the project in the following order:
 
@@ -32,17 +34,21 @@ You should approach the project in the following order:
 
 7) In `Sketch.java`, add code to get your four snowflakes working.
    
-8) Go to Google Classroom and complete the design documentation for the base level project.
+8) Create UML Class diagrams for all classes in the project, as instructed in class.
 
-Once you have completed all of these tasks, you have created a project that can earn a proficient.
+Once you have completed all of these tasks, you have created a project that can earn a proficient. The expectation is that you will create a commit at this point so that I can easily rewind your project to this point.
 
-In order to extend into Accomplished/Exemplary land, you will need to add your own spin on things, AND document your extensions in the design document. Some suggestions:   
+---
+
+In order to extend into Accomplished/Exemplary land, you will need to add your own spin on things, with full documentation of your process. This documentation should include: documentation comments for any new method, UML Class Diagrams for any new classes, in-code citations for any code or learning resources you found online OR in person (you can cite friends, me, etc), AND detailed explanations of what is happening in your code. If you use ChatGPT or another AI to generate code, you must share the full transcript.
+
+Here are a few ideas, but go your own way.
 
 1) Use random numbers to generate your balls, bubbles, and/or snowflakes rather than picking the sizes manually. The processing `random()` method can help with this, feel free to search that up in the Processing Reference. You could also use the `Math.random()` method provided directly by java to do this.
    
-2) Read about java **arrays** or **ArrayLists** and use arrays (or arraylists) to hold your four (or more!) snowflakes, bubbles, and balls rather than individual variables. You might also need to use **loops**
+2) Read about java **arrays** or **ArrayLists** and use them to hold your four (or more!) snowflakes, bubbles, and balls rather than individual variables. You can save even more code in that case by using **for-each loops**.
    
-3) Make it so if you hover your mouse pointer over a ball or bubble or snowflake, it does not move. The built in processing variables `mouseX` and `mouseY` can help with this - again, feel free to search that up in the Processing Reference.
+3) Make it so if you hover your mouse pointer over a ball or bubble or snowflake, it does not move. The built in processing variables `mouseX` and `mouseY` can help with this, as well as the processing method `distance` - again, feel free to search that up in the Processing Reference.
    
 4) Make it so that when you press a key on the keyboard, the balls change color, either to random colors or alternating between a list of options. The `keyPressed()` method, added to your main `Sketch.java`, can help with this. Again, search in the Processing Reference.
    
@@ -54,8 +60,10 @@ In order to extend into Accomplished/Exemplary land, you will need to add your o
 
 ## A note about academic honesty
 
-The expecation is that you will complete everything required for a Proficient without using any sources OTHER than our CS Awesome textbook and your own knowledge.
+I have already address the rules for the main portion of the project above.
 
-For extensions, you will likely need to add things. I will be looking for clear evidence that anything you add from this list, or on your own, you figured out at least partially yourself. That doesn't mean you can't search things on the internet, because that is part of learning, but it DOES mean you should not be talking about these extension ideas with other students, or teachers, or parents, or tutors. Sources should be cited. If any code is copy-and-pasted you either need to make sure its clear you understand what it is doing OR state in a comment that you don't understand what it does and you just used it to get it working (which will count toward creativity but not toward programing learning).f
+For extensions, you will likely need to add things. I will be looking for clear evidence that anything you add from this list, or on your own, you figured out at least partially yourself. That doesn't mean you can't search things on the internet or talk to your peers about ideas, because that is part of learning new things, but the expectations is that it will be at least partially your own work in the end. Sources must be cited and how you used them explained. If any code is copy-and-pasted you either need to make sure its clear you understand what it is doing OR state in a comment that you don't understand what it does and you just used it to get it working, so that I can evaluate it fairly. Sometimes we do use code we don't understand - that's abstraction! - but you should not pretend otherwise.
 
-This is part of academic honesty. In order for any of these project extensions to help your grade, you will need to be able to tell me how they worked and how you figured out how to do it. If I suspect that these rules have not been followed, and that any work on this project is not your own, you will earn a maximum grade of a Proficient and the traditional consequences of academic dishonesty may follow, including an eventual refusal, on my part, to write a letter of recommendation for you.
+If I suspect that these rules have not been followed, and that you are trying to pass the work of others off as your own, you will earn a maximum grade of a Proficient and the traditional consequences of academic dishonesty may follow.
+
+Getting a 6 or a 7 is designed to be challenging. If you found a source that made it easy, you probably cheated. For this reason, I strongly recommend against ChatGPT and other AI tools, at least not until you have made it most of the way through solving a problem. It's too easy for it to do all the work, and this is not a "prompting ChatGPT" class.
