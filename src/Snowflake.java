@@ -6,10 +6,12 @@ class Snowflake {
   
 
     public void draw() {
-        line(x+radius,y,x-radius,y);
-        line(x,y+radius,x,y-radius);
-        line(x+radius*.707,y+radius*.707,x-radius*.707,y-radius*.707);
-        line(x+radius*.707,y-radius*.707,x-radius*.707,y+radius*.707);
+        s.line(x + radius, y, x - radius, y);
+        s.line(x, y + radius, x, y - radius);
+        s.line(x + radius * .707f, y + radius * .707f,
+               x - radius * .707f, y - radius * .707f);
+        s.line(x + radius * .707f, y - radius * .707f,
+               x - radius * .707f, y + radius * .707f);
     }
 }
 

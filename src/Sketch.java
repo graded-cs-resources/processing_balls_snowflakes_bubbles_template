@@ -19,6 +19,7 @@ public class Sketch extends PApplet {
      */
     public void setup() {
         ball1 = new Ball(this);
+        
     }
 
     /**
